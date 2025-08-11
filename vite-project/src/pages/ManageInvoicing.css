@@ -1,0 +1,95 @@
+.invoice-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  background: #f9faff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.invoice-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.invoice-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.invoice-header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.invoice-section {
+  background: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.invoice-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #34495e;
+}
+
+.invoice-section p, 
+.invoice-section ul, 
+.invoice-section ol {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.invoice-section ul, 
+.invoice-section ol {
+  padding-left: 20px;
+}
+
+.invoice-footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-btn {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  width: 220px;
+  height: 50px;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.secondary-btn {
+  background: #ecf0f1;
+  color: #333;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  width: 200px;
+  height: 50px;
+}
+
+.secondary-btn:hover {
+  background: #dfe6e9;
+}

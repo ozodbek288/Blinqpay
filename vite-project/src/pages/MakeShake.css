@@ -1,0 +1,84 @@
+.payments-container {
+  background-color: #f7f2fa; 
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #3a003a;
+}
+
+.payments-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.payments-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #5a0e5a; 
+  margin-bottom: 15px;
+}
+
+.payments-header p {
+  font-size: 18px;
+  color: #4b4b4b;
+  line-height: 1.6;
+}
+
+.payments-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.payment-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 300px;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.payment-card h2 {
+  color: #5a0e5a;
+  margin-bottom: 10px;
+}
+
+.payment-card p {
+  color: #555;
+  font-size: 15px;
+}
+
+.cta-section {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.cta-btn {
+  background-color: #5a0e5a;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #7a1e7a;
+}
+
+.cta-btn.secondary {
+  background-color: #ddd;
+  color: #333;
+}
+
+.cta-btn.secondary:hover {
+  background-color: #bbb;
+}
